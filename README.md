@@ -16,7 +16,7 @@ python -m http.server 8000
 
 ## 部署到 GitHub Pages
 
-1. 新建一个 GitHub 仓库，比如 `yourname.github.io`。
+1. 新建或打开 GitHub 仓库，比如 `Personal-Project-Experience`。
 2. 把本目录下的所有文件推送到仓库根目录。
 3. 在 GitHub 仓库设置里打开 `Settings -> Pages`。
 4. `Build and deployment` 选择 `Deploy from a branch`。
@@ -25,9 +25,9 @@ python -m http.server 8000
 
 ## 建议替换项
 
-- `你的名字`：替换成真实姓名或英文名。
-- `hello@example.com`：替换成真实邮箱。
-- `https://github.com/yourname`：替换成你的 GitHub。
+- 姓名：王嘉璐。
+- 邮箱：`962447890@qq.com`。
+- GitHub：`https://github.com/jing-56`。
 - 项目卡片里的标题、简介和链接。
 - `assets/project-*.png` 和 `assets/photo-*.png`：替换成项目截图和摄影作品。
 
@@ -40,4 +40,3 @@ python -m http.server 8000
 - `static/assets/` 或 `assets/`
 
 现有的 HTML 和 CSS 可以继续复用。
-
