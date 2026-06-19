@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="个人作品站模板，展示项目、摄影作品、简历入口和联系方式。"
+    />
+    <title>你的名字 | Portfolio</title>
+    <link rel="preload" href="assets/hero-portfolio.png" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="主导航">
+      <a class="brand" href="#top" aria-label="返回首页">
+        <span class="brand-mark">Y</span>
+        <span>你的名字</span>
+      </a>
+      <nav class="nav-links" aria-label="页面章节">
+        <a href="#projects">项目</a>
+        <a href="#photos">摄影</a>
+        <a href="#about">关于</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="个人介绍">
+        <img class="hero-image" src="assets/hero-portfolio.png" alt="桌面上的电脑、相机和摄影作品" />
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Creative Technologist / Photographer</p>
+          <h1>把工程、视觉和叙事做成可以被看见的作品。</h1>
+          <p class="hero-copy">
+            我关注交互原型、数据产品和影像表达。这里收集我做过的项目、摄影练习，以及一份可以直接分享给招聘方的简历入口。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">查看作品</a>
+            <a class="button secondary" href="mailto:hello@example.com">联系我</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro-band" aria-label="快速概览">
+        <div class="metric">
+          <strong>12+</strong>
+          <span>项目原型</span>
+        </div>
+        <div class="metric">
+          <strong>4</strong>
+          <span>核心方向</span>
+        </div>
+        <div class="metric">
+          <strong>2026</strong>
+          <span>持续更新</span>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2>项目作品</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <img src="assets/project-signal.png" alt="信号与算法项目封面" />
+            <div class="card-body">
+              <p class="tag">算法 / 仿真</p>
+              <h3>低轨卫星信号同步算法</h3>
+              <p>
+                围绕捕获、同步和低功耗实现做算法验证，整理为可复现实验记录和结题展示材料。
+              </p>
+              <a href="#" aria-label="打开低轨卫星信号同步算法项目">GitHub / Demo</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="assets/project-interface.png" alt="界面设计项目封面" />
+            <div class="card-body">
+              <p class="tag">产品 / 前端</p>
+              <h3>实验数据可视化看板</h3>
+              <p>
+                把零散实验数据整理成可筛选、可比较的交互界面，方便团队快速定位异常趋势。
+              </p>
+              <a href="#" aria-label="打开实验数据可视化看板项目">GitHub / Demo</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section photo-section" id="photos">
+        <div class="section-heading">
+          <p class="eyebrow">Photography</p>
+          <h2>摄影作品</h2>
+        </div>
+        <div class="photo-grid">
+          <figure>
+            <img src="assets/photo-street.png" alt="城市街头摄影占位图" />
+            <figcaption>城市观察 / Street Notes</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/photo-landscape.png" alt="自然风景摄影占位图" />
+            <figcaption>风景练习 / Quiet Light</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>一个短一点、但有记忆点的自我介绍。</h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            我喜欢把复杂问题拆成清晰的系统，也喜欢用影像记录真实的光线和场景。作品站会持续更新：项目放技术细节，摄影放视觉表达，简历放最直接的能力证据。
+          </p>
+          <ul class="skill-list" aria-label="技能列表">
+            <li>Python / MATLAB / JavaScript</li>
+            <li>算法仿真与数据可视化</li>
+            <li>交互原型与静态站点部署</li>
+            <li>摄影后期与视觉叙事</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>让链接替你先开口。</h2>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:hello@example.com">Email</a>
+          <a href="https://github.com/yourname">GitHub</a>
+          <a href="https://www.linkedin.com/in/yourname">LinkedIn</a>
+          <a href="resume.pdf">Resume</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 你的名字</span>
+      <a href="#top">回到顶部</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
